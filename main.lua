@@ -1,4 +1,4 @@
-function love.load(arg)      -- Load everything in here when loading program  (sound, images, w/e)
+function love.load(arg)      -- Load everything in here ONLY when loading the program for first time  (sound, images, w/e)
   love.graphics.setBackgroundColor(255, 255, 255)
   print(unpack(arg))
   printx = 0
@@ -22,4 +22,8 @@ end
 
 function love.keypressed(key, scancode, isrepeat)
   printstr = printstr..key
+end
+
+function love.directorydropped(path)
+  printstr = path
 end
