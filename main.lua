@@ -3,7 +3,7 @@ function love.load(arg)      -- Load everything in here ONLY when loading the pr
   print(unpack(arg))
   printx = 0
   printy = 0
-  printstr = "Hello World!"
+  printstr = "Hello FailSquad!"
 end
 
 function love.update(dt)    -- Update stuff in here every frame. dt makes sure the speed is stable regardless of framerate.
