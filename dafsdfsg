@@ -1,0 +1,12 @@
+load{
+
+print(unpack(arg))
+printx = 0
+printy = 0
+printstr = "Hello FailSquad!"
+
+
+myhouse = love.audio.newSource('resources/sounds/music/myhouse.mp3', stream)
+love.audio.setVolume(0.2)
+--love.audio.play(myhouse)
+}
